@@ -11,4 +11,6 @@
 
 void invert(quantum_reg *reg){
 
+	return;
+
 }

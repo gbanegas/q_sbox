@@ -11,6 +11,7 @@
 
 void sub_bytes(quantum_reg *reg)
 {
-
+	invert(reg);
+	transform(reg);
 	return;
 }

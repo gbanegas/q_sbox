@@ -9,7 +9,9 @@
 #include "square.h"
 
 
-void square(quantum_reg *reg)
+void square(quantum_reg *reg, int offset1, int offset2)
 {
 
+
+	return;
 }

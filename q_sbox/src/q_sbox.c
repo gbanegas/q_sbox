@@ -16,8 +16,9 @@
 
 int main(void) {
 
-	quantum_reg state = quantum_new_qureg(0, 40);
-	sub_bytes(state);
+	quantum_reg state = quantum_new_qureg(111, 40);
+	quantum_print_qureg(state);
+	sub_bytes(&state);
 
 	return EXIT_SUCCESS;
 }

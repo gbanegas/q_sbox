@@ -7,3 +7,10 @@
 
 
 #include "multiply.h"
+
+void multiply(quantum_reg *reg, int offset1, int offset2){
+
+
+	return;
+
+}
