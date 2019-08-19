@@ -8,7 +8,7 @@
 
 #include "affine.h"
 
-void transform(quantum_reg *reg){
+void affine_transform(quantum_reg *reg){
 
 
 	return;

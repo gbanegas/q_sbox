@@ -10,7 +10,7 @@
 #include <quantum.h>
 
 
-extern void transform(quantum_reg *reg);
+extern void affine_transform(quantum_reg *reg);
 
 
 #endif /* SUBFUNCTIONS_AFFINE_H_ */

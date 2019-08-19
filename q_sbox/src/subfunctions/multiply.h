@@ -9,7 +9,7 @@
 #define SUBFUNCTIONS_MULTIPLY_H_
 #include <quantum.h>
 
-extern void multiply(quantum_reg *reg, int offset1, int offset2);
+extern void multiply(quantum_reg *reg, int offset1, int offset2, int offset3);
 
 
 #endif /* SUBFUNCTIONS_MULTIPLY_H_ */
