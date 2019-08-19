@@ -19,7 +19,7 @@ LIBTOOL=$(SHELL) $(top_builddir)/libtool
 
 # Flags passed to C compiler
 
-CFLAGS=-g -O2 -fopenmp -std=c99 
+CFLAGS=-g -O3 -fopenmp -std=c99 
 #CFLAGS=-g -fopenmp -std=c99 
 LDFLAGS=-rpath $(LIBDIR)
 

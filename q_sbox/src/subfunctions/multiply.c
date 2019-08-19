@@ -87,6 +87,7 @@ void multiply(quantum_reg *reg, int offset1, int offset2, int offset3) {
 	quantum_toffoli(2+offset1, 13+offset2, 23+offset3, reg);
 	quantum_toffoli(1+offset1, 14+offset2, 23+offset3, reg);
 	quantum_toffoli(0+offset1, 15+offset2, 23+offset3, reg);
+	quantum_print_qureg(*reg);
 
 	quantum_toffoli(6+offset1, 8+offset2, 22+offset3, reg);
 	quantum_toffoli(5+offset1, 9+offset2, 22+offset3, reg);
@@ -122,7 +123,7 @@ void multiply(quantum_reg *reg, int offset1, int offset2, int offset3) {
 	quantum_toffoli(0+offset1, 9+offset2, 17+offset3, reg);
 
 	quantum_toffoli(0+offset1, 8+offset2, 16+offset3, reg);
-
+	quantum_print_qureg(*reg);
 	return;
 
 }
